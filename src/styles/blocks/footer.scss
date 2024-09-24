@@ -1,0 +1,14 @@
+.footer {
+  background-image: url(../images/footer-bg-image.png);
+  height: 200px;
+  background-size: cover;
+  background-position: right;
+
+  @include on-tablet {
+    height: 480px;
+  }
+
+  @include on-desktop {
+    height: 555px;
+  }
+}
